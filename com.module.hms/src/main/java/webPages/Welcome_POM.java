@@ -17,10 +17,10 @@ public class Welcome_POM {
 	}
 	
 	@FindBy(how=How.XPATH,using="//ul[@id='navigation']/li[1]/a")
-	private WebElement reg;
+	private WebElement registration1;
 	
 	public WebElement getReg() {
-		return reg;
+		return registration1;
 		
 	}
 
